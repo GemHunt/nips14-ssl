@@ -7,7 +7,9 @@ https://arxiv.org/pdf/1406.5298v2.pdf
 
 #Install:
 sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
+
 sudo pip install Theano
+
 #Test Theano:
 nosetests theano
 git clone https://github.com/dpkingma/nips14-ssl.git
