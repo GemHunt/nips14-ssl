@@ -6,9 +6,9 @@ Claims 96.7% accuracy on mnist with only 100 images labeled:
 Interesting...
 
 With 100 of the 50K MNIST Samples:
-I got 80% in Caffe with LeNet
-In one test this code got 95.9% with 1910 epochs after 18 hours.
-I have no idea to implement this...
+* I got 80% in Caffe with LeNet
+* In one test this code got 95.9% with 1910 epochs after 18 hours on a slower CPU. 
+* I have no idea to implement this...
 
 
 ```
