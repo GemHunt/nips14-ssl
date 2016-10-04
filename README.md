@@ -1,11 +1,18 @@
-#My NIPS'14-SSL Notes on getting this working. 
+My Personal Notes on getting NIPS'14-SSL working. 
 
-#This paper:
+This paper:
 https://arxiv.org/pdf/1406.5298v2.pdf
-#Claims 96.7% accuracy on mnist with only 100 images labeled:
-#Interesting...
+Claims 96.7% accuracy on mnist with only 100 images labeled:
+Interesting...
 
-#Install:
+With 100 of the 50K MNIST Samples:
+I got 80% in Caffe with LeNet
+In one test this code got 95.9% with 1910 epochs after 18 hours.
+I have no idea to implement this...
+
+
+```
+#My Install:
 sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
 
 sudo pip install Theano
@@ -27,12 +34,10 @@ THEANO_FLAGS=floatX=float32 python run_2layer_ssl.py 100 100
 #Updates due to error:
 Sudo pip install pyparsing==1.5.7 
 sudo pip install pydot==1.0.28
-
-With 100 Samples:
-I got 80% in Caffe with LeNet.
-So far I got 91% with 176 epochs after 2 hours? I have no idea to implement this. 
+```
 
 
+Back to the offical readme:
 
 NIPS'14-SSL
 ==========
